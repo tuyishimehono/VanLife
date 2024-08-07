@@ -2,7 +2,10 @@ import { Link } from "react-router-dom";
 import homeBgImg from "/images/homebg.png";
 export default function Home() {
   return (
-       <div className="bg-center bg-no-repeat bg-cover relative min-h-[350px] text-white p-[45px_23px]" style={{backgroundImage :`url(${homeBgImg})`}}>
+    <div
+      className="bg-center bg-no-repeat bg-cover relative min-h-[350px] text-white p-[45px_23px]"
+      style={{ backgroundImage: `url(${homeBgImg})` }}
+    >
       <div className="absolute inset-0 bg-black/46"></div>
       <h1 className="font-bold text-4xl">
         You got the travel plans, we got the travel vans.
